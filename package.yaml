@@ -24,7 +24,7 @@ dependencies:
 - aeson
 - text
 - time
-- http >= 4.0
+- http
 
 library:
   source-dirs: src
