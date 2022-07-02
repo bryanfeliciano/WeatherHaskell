@@ -24,7 +24,7 @@ dependencies:
 - aeson
 - text
 - time
-- http
+- http-conduit
 
 library:
   source-dirs: src
