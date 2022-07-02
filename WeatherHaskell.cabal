@@ -32,6 +32,7 @@ library
       src
   build-depends:
       aeson
+    , argparser
     , base >=4.7 && <5
     , http-conduit
     , text
@@ -48,6 +49,7 @@ executable WeatherHaskell-exe
   build-depends:
       WeatherHaskell
     , aeson
+    , argparser
     , base >=4.7 && <5
     , http-conduit
     , text
@@ -65,6 +67,7 @@ test-suite WeatherHaskell-test
   build-depends:
       WeatherHaskell
     , aeson
+    , argparser
     , base >=4.7 && <5
     , http-conduit
     , text

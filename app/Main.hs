@@ -15,7 +15,7 @@ myParser = MyArg
 app :: MyArg -> IO ()
 app (MyArg q z)
 
-  | q == "" = putStrLn "Forecast: `heather forecast`\nCurrent weather: `heather current`\n(add an additional argument to change the zip code, e.g. `heather forecast 27708`)"
+  | q == "" = putStrLn "Forecast: `weather forecast`\nCurrent weather: `weather current`\n(add an additional argument to change the zip code, e.g. `weather forecast 27708`)"
 
   | q == "current" = do
       result <- getCurrent z -- get the current weather
