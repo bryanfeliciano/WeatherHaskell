@@ -25,6 +25,7 @@ dependencies:
 - text
 - time
 - http-conduit
+- argparser
 
 library:
   source-dirs: src
